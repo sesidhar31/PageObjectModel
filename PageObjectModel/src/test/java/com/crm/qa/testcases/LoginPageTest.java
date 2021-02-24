@@ -13,7 +13,7 @@ public class LoginPageTest extends TestBase {
 	LoginPage loginPage;
 	HomePage homePage;
 	public LoginPageTest() {
-		super();// compulsorly to call TestBase constructor for prop variables
+		super();// Compulsory to call TestBase constructor for prop variables
 	}
 
 	@BeforeMethod

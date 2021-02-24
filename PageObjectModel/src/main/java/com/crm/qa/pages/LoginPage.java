@@ -25,7 +25,7 @@ public class LoginPage extends TestBase{
 	@FindBy(className = "img-responsive")
 	WebElement logoimg;
 	
-	//we have initialize all these elements using page factory
+	//we have to initialize all these elements using page factory
 	//create the constructor
 	
 	public LoginPage() {		

@@ -20,7 +20,7 @@ public class TestBase {
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(
-					"/home/sesidharn/eclipse-workspace/PageObjectModel/src/main/java/com/crm/qa/config/config.properties");
+					"/home/sesidharn/git/PageObjectModel/PageObjectModel/src/main/java/com/crm/qa/config/config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
