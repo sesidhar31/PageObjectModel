@@ -33,7 +33,7 @@ public class HomePageTest extends TestBase {
 	@Test(priority = 1)
 	public void verifyHomepageTitleTest() {
 		String homePageTitle=homePage.VerifyHomePageTitle();
-		Assert.assertEquals(homePageTitle, "CRMPRO","Home Page title missmatch");
+		Assert.assertEquals(homePageTitle, "CRMPRO - CRM software for customer relationship management, sales, and support.","Home Page title missmatch");
 		//Assertion message will prints only when assertion is failed
 		
 	}

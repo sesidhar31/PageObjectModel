@@ -8,6 +8,8 @@
           <include name="TearDown"/>
           <include name="VerifyContactLinkTest"/>
           <include name="setup"/>
+          <include name="VerifyUserLabelTest"/>
+          <include name="verifyHomepageTitleTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.HomePageTest -->
     </classes>
